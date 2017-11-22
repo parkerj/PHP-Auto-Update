@@ -1,4 +1,4 @@
-<?php namespace VisualAppeal;
+<?php namespace ParkerJ;
 
 use \vierbergenlars\SemVer\version;
 use \vierbergenlars\SemVer\expression;

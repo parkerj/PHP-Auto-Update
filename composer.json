@@ -1,5 +1,5 @@
 {
-    "name": "visualappeal/php-auto-update",
+    "name": "parkerj/php-auto-update",
     "description": "Autoupdater for PHP",
     "license": "Apache-2.0",
     "authors": [
@@ -8,10 +8,11 @@
             "email": "tim@visualappeal.de"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev-master",
     "require": {
         "desarrolla2/cache": "2.1.*",
         "monolog/monolog": "1.22.*",
+        "monolog/monolog": ">= 1.2",
         "php": ">= 5.6.4",
         "vierbergenlars/php-semver": "3.0.*"
     },
@@ -20,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VisualAppeal\\": "src/"
+            "ParkerJ\\": "src/"
         }
     },
     "config": {
