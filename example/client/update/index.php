@@ -2,7 +2,7 @@
 
 require(__DIR__ . '/../../../vendor/autoload.php');
 
-use \VisualAppeal\AutoUpdate;
+use \ParkerJ\AutoUpdate;
 
 $update = new AutoUpdate(__DIR__ . '/temp', __DIR__ . '/../', 60);
 $update->setCurrentVersion('0.1.0');
