@@ -4,7 +4,7 @@ With this library your users can automatically update their instance of your app
 
 ## Installation
 
-* Install the library via composer [visualappeal/php-auto-update](https://packagist.org/packages/visualappeal/php-auto-update)
+* Install the library via composer [parkerj/php-auto-update](https://packagist.org/packages/parkerj/php-auto-update)
 * Create a update file/method in your application with your update routine (see `example/client/update/index.php`)
 * Create a `update.json` or `update.ini` on your server (where the client should get the updates, see `example/server/update.json` or `example/server/update.ini`)
 
@@ -27,7 +27,7 @@ You can always check for new versions, e.g. in the footer. This can look like th
 
 require(__DIR__ . '/../../../vendor/autoload.php');
 
-use \VisualAppeal\AutoUpdate;
+use \ParkerJ\AutoUpdate;
 
 // Download the zip update files to `__DIR__ . '/temp'`
 // Copy the contents of the zip file to the current directory `__DIR__`
