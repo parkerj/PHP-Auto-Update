@@ -8,7 +8,7 @@
             "email": "tim@visualappeal.de"
         }
     ],
-    "minimum-stability": "dev-master",
+    "minimum-stability": "stable",
     "require": {
         "desarrolla2/cache": "2.1.*",
         "monolog/monolog": "1.22.*",
